@@ -1,0 +1,42 @@
+[OPTIONS]
+Compiled File=WebHelp Example.chm
+Title=WebHelp Example
+Contents File=WebHelp Example.hhc
+Index File=WebHelp Example.hhk
+Default topic=Introduction.htm
+Default Window=
+Error log file=
+Display compile progress=No
+Display compile notes=No
+Full-text search=Yes
+Binary Index=Yes
+Auto Index=No
+Enhanced decompilation=No
+Binary TOC=No
+Flat=No
+
+[WINDOWS]
+
+[FILES]
+Introduction.htm
+Setup.htm
+Calling_functions_from_Web_pages.htm
+Frequently_Asked_Questions.htm
+How_to_call_the_default_topic_with_the_Navigation_Pane.htm
+How_to_call_a_specific_topic_with_the_Navigation_Pane.htm
+How_to_call_a_specific_topic_without_the_Navigation_Pane.htm
+ehlpdhtm.js
+RoboHelp_CSH.js
+RoboHHRE.lng
+
+WebHelp Example.brs
+[ALIAS]
+#include WebHelp Example.ali
+
+[MAP]
+#include BSSCDefault.h
+
+[TEXT POPUPS]
+BSSCDefault.h
+
+

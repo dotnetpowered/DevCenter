@@ -1,0 +1,649 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{B6ACB121-EDF2-462A-92CE-DF9A8749ADF6}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "RepositoryViewer"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "RepositoryViewer"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "SharpRepositoryLib.Core"
+                    Project = "{FAA30577-0662-4754-9F5A-AA980FEBACB8}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "SharpRepositoryLib.CVS"
+                    Project = "{070E1DE2-9A61-4EFB-97AA-B2B1681DCD74}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "SharpRepositoryLib.SVN"
+                    Project = "{5566829F-4C8E-4FBF-ABCF-F0B2C672362A}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Design.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "SharpRepositoryLib.Workspaces"
+                    Project = "{6E338FA2-640B-4470-8F72-7D60A192899C}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "WilsonWebCompile"
+                    AssemblyName = "WilsonWebCompile"
+                    HintPath = "..\ThirdParty\WilsonWeb\WilsonWebCompile.dll"
+                />
+                <Reference
+                    Name = "SharpDevCenter"
+                    Project = "{A36A4EEB-37F3-4152-AB3C-605A2B53C198}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "SharpDbSchema.Core"
+                    Project = "{D14BB179-24DF-4025-A304-4EC22BE8D729}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "SharpDbSchema.SqlServer"
+                    Project = "{768DDF28-5A54-4E2B-9DA8-BF891E3460F5}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "SharpDbSchema.MySql"
+                    Project = "{ECC9BF1E-1E2A-4503-B13F-055A80897D3C}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BasePage.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "builds.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "builds.aspx.cs"
+                    DependentUpon = "builds.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "builds.aspx.resx"
+                    DependentUpon = "builds.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BuildView.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BuildView.aspx.cs"
+                    DependentUpon = "BuildView.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BuildView.aspx.resx"
+                    DependentUpon = "BuildView.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "classbrowser.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "classbrowser.aspx.cs"
+                    DependentUpon = "classbrowser.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classbrowser.aspx.resx"
+                    DependentUpon = "classbrowser.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "database.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "database.aspx.cs"
+                    DependentUpon = "database.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "database.aspx.resx"
+                    DependentUpon = "database.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "default.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FileInfo.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FileInfo.aspx.cs"
+                    DependentUpon = "FileInfo.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FileInfo.aspx.resx"
+                    DependentUpon = "FileInfo.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "filelist.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "filelist.aspx.cs"
+                    DependentUpon = "filelist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "filelist.aspx.resx"
+                    DependentUpon = "filelist.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "header.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "header.aspx.cs"
+                    DependentUpon = "header.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "header.aspx.resx"
+                    DependentUpon = "header.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "help.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "help.aspx.cs"
+                    DependentUpon = "help.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "help.aspx.resx"
+                    DependentUpon = "help.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "modifications.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PageHeader.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PageHeader.ascx.cs"
+                    DependentUpon = "PageHeader.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PageHeader.ascx.resx"
+                    DependentUpon = "PageHeader.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "project_default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "project_default.aspx.cs"
+                    DependentUpon = "project_default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "project_default.aspx.resx"
+                    DependentUpon = "project_default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Repository.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RepositoryViewer.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "site.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SortedView.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tree.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tree.aspx.cs"
+                    DependentUpon = "tree.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tree.aspx.resx"
+                    DependentUpon = "tree.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "tree_top.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tree_top.aspx.cs"
+                    DependentUpon = "tree_top.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tree_top.aspx.resx"
+                    DependentUpon = "tree_top.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "treexml.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "treexml.aspx.cs"
+                    DependentUpon = "treexml.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "treexml.aspx.resx"
+                    DependentUpon = "treexml.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Utility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\blank.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\box-open.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\closex.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\editor.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\file.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\folder.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\folder2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\foldericon.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\help-faq.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\I.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_help.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\L.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Lminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo_cvs.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo_svn.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo_vault.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo_workspace.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Lplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\openfoldericon.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pk.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\question.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\server-config-small.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\T.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Tminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Tplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\file.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\file1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\folder.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\I.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\L.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\Lminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\Lplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\openfolder.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\project.PNG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\T.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\xp\Tminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xp\Tplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "js\xloadtree.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "js\xmlextras.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "js\xtree.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\database.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\documentation-robohelp.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\links.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\namespace.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\namespace-graph.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\namespaces.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\storedproc.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\storedprocs.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\table.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\tables.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\type.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\view.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\views.xsl"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

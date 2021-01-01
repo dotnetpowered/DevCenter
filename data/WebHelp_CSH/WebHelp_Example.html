@@ -1,0 +1,61 @@
+<html>
+
+
+<script  type="text/javascript" language=JavaScript1.2 src="RoboHelp_CSH.js">
+
+</script> 
+
+<body>
+
+<h1 align="center">Calling Context Sensitive WebHelp From a HTML Page</h1>
+
+<p>The examples below will who you how to call FlashHelp Context Sensitively
+from a HTML Page.&nbsp; Before getting started I would read the Help file that I
+have created for this project which you can find <A HREF='javascript:RH_ShowHelp(0, "WebHelp/WebHelp_Example.htm", HH_HELP_CONTEXT, 0)'>Here</a>.</p>
+
+<h2>How to call the default topic with the Navigation Pane</h2>
+
+<h4>This first example shows you how to call FlashHelp opening the project to the
+default topic.</h4>
+
+<p>Here is the syntax used:</p>
+
+<p><font size="2" face="Arial" color="#008000">&lt;A HREF='javascript:RH_ShowHelp(0,
+&quot;WebHelp/WebHelp_Example.htm&quot;, HH_HELP_CONTEXT, 0)'&gt;Click Here to Test&lt;/a&gt;</font></p>
+
+<p><A HREF='javascript:RH_ShowHelp(0, "WebHelp/WebHelp_Example.htm", HH_HELP_CONTEXT, 0)'>Click Here to Test</a></p>
+
+<h4>You can also specify to open the default topic and a different pane, such as
+the index or search pane.</h4>
+
+<p>Here is the syntax used to display the Search tab:</p>
+
+<p><font size="2" face="Arial" color="#008000">&lt;A HREF='javascript:RH_ShowHelp(0,
+&quot;WebHelp/WebHelp_Example.htm&quot;, HH_DISPLAY_SEARCH, 0)'&gt;Click Here to Test&lt;/a&gt;</font></p>
+
+<p><A HREF='javascript:RH_ShowHelp(0, "WebHelp/WebHelp_Example.htm", HH_DISPLAY_SEARCH, 0)'>Click Here to Test</a></p>
+
+<p>Or the syntax used to display the Index tab:</p>
+
+<p><font size="2" face="Arial" color="#008000">&lt;A HREF='javascript:RH_ShowHelp(0,
+&quot;WebHelp/WebHelp_Example.htm&quot;, HH_DISPLAY_INDEX, 0)'&gt;Click Here to Test&lt;/a&gt;</font></p>
+
+<p><A HREF='javascript:RH_ShowHelp(0, "WebHelp/WebHelp_Example.htm", HH_DISPLAY_INDEX, 0)'>Click Here to Test</a></p>
+
+<h2>How to call a specific topic with the Navigation Pane</h2>
+
+<p>Here is the syntax used:</p>
+
+<p><font size="2" face="Arial" color="#008000">&lt;A HREF='javascript:RH_ShowHelp(0,
+&quot;WebHelp/WebHelp_Example.htm&gt;First&quot;, HH_HELP_CONTEXT, 7)'&gt;Click Here to Test&lt;/a&gt;</font></p>
+<A HREF='javascript:RH_ShowHelp(0, "WebHelp/WebHelp_Example.htm>First", HH_HELP_CONTEXT, 7)'>Click Here to Test</a>
+<h2>How to call a specific topic without the Navigation Pane</h2>
+
+<p>Here is the syntax used:</p>
+
+<p><font size="2" face="Arial" color="#008000">&lt;A HREF='javascript:RH_ShowHelp(0,
+&quot;WebHelp/WebHelp_Example.htm&gt;SecondWindow&quot;, HH_HELP_CONTEXT, 1)'&gt;Click Here to Test&lt;/a&gt;</font></p>
+<A HREF='javascript:RH_ShowHelp(0, "WebHelp/WebHelp_Example.htm>SecondWindow", HH_HELP_CONTEXT, 1)'>Click Here to Test</a>
+</body>
+
+</html>

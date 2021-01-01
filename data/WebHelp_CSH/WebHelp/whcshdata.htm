@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>WebHelp Example</title>
+
+<meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
+<meta name="description" content="WebHelp 5.50">
+</head>
+<body>
+<script language="javascript1.2" src="whver.js"></script>
+<script language="javascript1.2" src="whutils.js"></script>
+<script language="JavaScript">
+<!--
+var gaCsh=new Array();
+
+var gaWindow=new Array();
+
+var gaRmtProj=new Array();
+
+var gsProjPath=_getPath(document.location.href);
+
+function CshEntityItem(strAliasId,nTopicNum,strUrl)
+{
+	this.strAliasId=strAliasId;
+	this.nTopicNum=nTopicNum;
+	this.strUrl=strUrl;
+}
+
+function CshWindow(sWName,bBUseDefault,nWBOptions,sWBLeft,sWBTop,sWBWidth,sWBHeight,sWCaption,nWPanes,nWPOptions,sWPButtons,sWPDefBtn)
+{
+	this.sName=sWName;
+	this.bUseDefault=bBUseDefault;
+	if(!this.bUseDefault)
+	{
+		this.nBOptions=nWBOptions;
+		this.sBLeft=sWBLeft;
+		this.sBTop=sWBTop;
+		this.sBWidth=sWBWidth;
+		this.sBHeight=sWBHeight;
+	}
+	this.sCaption=sWCaption;
+	this.nPanes=nWPanes;
+	if(this.nPanes==2)
+	{
+		this.nPOptions=nWPOptions;
+		this.sPButtons=sWPButtons;
+		this.sPDefBtn=sWPDefBtn;
+	}
+}
+
+function addRemoteProject(sPath)
+{
+	if(sPath.length!=0)
+	{
+		if(sPath.lastIndexOf("/")!=sPath.length-1)
+			sPath+="/";
+		gaRmtProj[gaRmtProj.length]=sPath;	
+	}
+}
+
+//Set Context-sensitive help entity...
+function SetCsh(n,strAliasId,nTopicNum,strUrl)
+{
+	gaCsh[n]=new CshEntityItem(strAliasId,nTopicNum,strUrl);
+}
+
+function addWindow(sWName,bBUseDefault,nWBOptions,sWBLeft,sWBTop,sWBWidth,sWBHeight,sWCaption,nWPanes,nWPOptions,sWPButtons,sWPDefBtn)
+{
+	gaWindow[gaWindow.length]=new CshWindow(sWName,bBUseDefault,nWBOptions,sWBLeft,sWBTop,sWBWidth,sWBHeight,sWCaption,nWPanes,nWPOptions,sWPButtons,sWPDefBtn);
+}
+
+SetCsh(0,"How_to_call_the_default_topic_with_the_Navigation_Pane",8,"How_to_call_the_default_topic_with_the_Navigation_Pane.htm");
+SetCsh(1,"How_to_call_a_specific_topic_with_the_Navigation_Pane",7,"How_to_call_a_specific_topic_with_the_Navigation_Pane.htm");
+SetCsh(2,"How_to_call_a_specific_topic_without_the_Navigation_Pane",1,"How_to_call_a_specific_topic_without_the_Navigation_Pane.htm");
+SetCsh(3,"Setup1",10,"Setup.htm");
+SetCsh(4,"Calling_functions_from_Web_pages_functionSyntax",5,"Calling_functions_from_Web_pages.htm#functionSyntax");
+SetCsh(5,"Introduction1",9,"Introduction.htm");
+SetCsh(6,"Frequently_Asked_Questions",6,"Frequently_Asked_Questions.htm");
+SetCsh(7,"Calling_functions_from_Web_pages1",4,"Calling_functions_from_Web_pages.htm");
+
+addWindow("SecondWindow",false,4,"5%","0%","62%","62%","FlashHelp Example",1,0,"toc|ndx|nls|gls","toc");
+addWindow("First",true,0,"","","","","FlashHelp Example",2,0,"toc|ndx|nls|gls","toc");
+
+
+
+window.onload=window_OnLoad;
+
+function window_OnLoad()
+{
+	if(parent&&parent!=this&&parent.putCshData)
+	{
+		parent.putCshData(gsProjPath,gaCsh,gaWindow,gaRmtProj);
+	}
+}
+//-->
+</script>
+</body>
+</html>

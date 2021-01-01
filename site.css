@@ -1,0 +1,215 @@
+body
+{
+	BACKGROUND: white; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: black; PADDING-TOP: 0px; 
+	font: normal 8pt verdana,arial,helvetica;
+	color: #000000;
+}
+DIV#header {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; 
+	PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: black; PADDING-TOP: 0px; BORDER-BOTTOM: #999999 1px solid; 
+	BACKGROUND-COLOR: #99ccff; BORDER-RIGHT-WIDTH: 0px
+}
+td
+{
+	font-family: Verdana;
+	font-size: x-small;
+}
+.pagebody
+{
+	padding-left: 10px;
+}
+body.header
+{
+	background-color: gainsboro;
+}
+body.treetop
+{
+	background-color: gainsboro;
+}
+body.tree
+{
+	background-color: whitesmoke;
+}
+A.closer
+{
+	text-decoration:none;
+	color:Black;
+}
+.PageHeader
+{
+	MARGIN-TOP: 1em; 
+	MARGIN-BOTTOM: 0.8em;
+	font-family: Verdana;
+	font-size: x-small;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.PageSubHeader
+{
+	margin-top: 1em;
+	font-weight: normal;
+	font-size: x-small;
+	left: 10px;
+	margin-bottom: 0.8em;
+	color: dimgray;
+	font-style: italic;
+	font-family: Verdana;
+	position: relative;
+}
+.SmallLabel 
+{
+	font-size:xx-small;
+	font-family:Verdana;
+}
+.HeaderTitle
+{
+	font-size: larger;
+	color: sienna;
+	font-family: Verdana;
+}
+.SubheaderTitle
+{
+	font-weight: bold;
+	color: #696969;
+}
+table.Header
+{
+	background-color: whitesmoke;
+}
+tr.Header
+{
+	background-color: gainsboro;
+	font-family:Verdana;
+	font-size:x-small;
+	font-weight:bolder;
+}
+tr.Treetop
+{
+	background-color: gainsboro;
+	font-family:Verdana;
+	font-size:x-small;
+	font-weight:bolder;
+}
+.MethodGrouping
+{
+	border: 1px solid black; 
+	padding:1px 3px 1px 3px;
+	margin-left: 18px;
+	background-color:#f8f8f8;
+}
+.MethodGroupingHeader
+{
+	font-size: 12pt;
+}
+.Grid
+{
+	border: 1px solid #cccccc; 
+	padding:1px 3px 1px 3px;
+	margin-left: 18px;
+}
+.GridHeader
+{
+	border: 1px solid #cccccc; 
+	font-weight: bold;
+	background: #eeeeee;
+} 
+.GridItem {
+	font-size: 8pt;
+	text-align: left;
+	border: 1px solid #cccccc; 
+} 
+h4
+{
+	font-size: 100%;
+}
+
+table tr th, table tr td {
+font-size: 8pt;
+text-align: left;
+}
+table.details tr th{
+font-weight: bold;
+background:#a6caf0;
+} 
+table.details tr td {
+font-size: 8pt;
+text-align: left;
+background: #eeeee0;
+}
+h1 {
+margin: 0px 0px 5px;
+font: 14pt verdana,arial,helvetica;
+}
+h2 {
+margin-top: 1em;
+margin-bottom: 0.5em;
+font: 13pt verdana,arial,helvetica;
+}
+div.modification {
+border: 1px solid #cccccc;
+margin-bottom: 1em;
+}
+span.linkbutton {
+color: blue;
+text-decoration: underline;
+cursor: hand;
+}
+.code {
+font-size: 11px;
+font-weight: normal;
+font-family: Lucida Console, monospace;
+background-color: #eeeeee;
+padding: 0.25cm;
+border-style: solid;
+border-width: 1px;
+border-color: #cccccc;
+margin-left: 18px;
+}
+
+
+.webfx-tree-container {
+	margin: 0px;
+	padding: 0px;
+	font: icon;
+	white-space: nowrap;
+}
+
+.webfx-tree-item {
+	padding: 0px;
+	margin: 0px;
+	font: icon;
+	color: WindowText;
+	white-space: nowrap;
+	height: 16px;
+}
+
+.webfx-tree-item a, .webfx-tree-item a:active, .webfx-tree-item a:hover {
+	margin-left: 3px;
+	padding: 0px 2px 1px 2px;
+}
+
+.webfx-tree-item a {
+	color: black;
+	text-decoration: none;
+}
+
+.webfx-tree-item a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.webfx-tree-item a:active {
+	background: highlight;
+	color: highlighttext;
+	text-decoration: none;
+}
+
+.webfx-tree-item img {
+	vertical-align: middle;
+	border: 0px;
+}
+
+.webfx-tree-icon {
+	width: 16px;
+	height: 16px;
+}

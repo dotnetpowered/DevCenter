@@ -1,0 +1,417 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="HH_HELP_CONTEXT">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="HH_DISPLAY_INDEX">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="uCommand">
+      <param name="Name" value="Calling functions from Web pages">
+      <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="HH_DISPLAY">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Test">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Help">
+      <param name="Name" value="Calling functions from Web pages">
+      <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="HH_DISPLAY_SEARCH">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="WebHelp Pro">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Local" value="Frequently_Asked_Questions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Map ID">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Edit Map IDs dialog">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Displays Index">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="WebHelp">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="calling">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="Introduction.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Data Type">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Help&lt;/A">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Parameter">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="API">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="UCommand">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="HH_DISPLAY_INDEX">
+      <param name="Name" value="Calling functions from Web pages">
+      <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="HH_DISPLAY_TOC">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="WebHelp/MyStartPage.htm&gt;MyWindow">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="RH_ShowHelp">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="HParent">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="RoboHelp">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="DwData">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Displays Contents">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="HREF">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Help">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="make">
+      <param name="Name" value="Calling functions from Web pages">
+      <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="test">
+      <param name="Name" value="Calling functions from Web pages">
+      <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Talk">
+      <param name="Name" value="Setup">
+      <param name="Local" value="Setup.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="FlashHelp">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Local" value="Frequently_Asked_Questions.htm">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="WindowName">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="StrPathAndWindow">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="RoboHelp_CSH.js">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="P">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="ID">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="WebHelp/FlashHelp">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Make">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Help">
+      <param name="Name" value="Calling functions from Web pages">
+      <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="S">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="P&gt;Click">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Javascript">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Displays Search">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Web">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="context-sensitive Help">
+      <param name="Name" value="Setup">
+      <param name="Local" value="Setup.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Syntax">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="ServerName&gt;/roboapi.asp">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Help file">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="A_pszHelpFile">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Talk">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Help">
+      <param name="Name" value="Setup">
+      <param name="Local" value="Setup.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Context-sensitive Help">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Web">
+      <param name="Name" value="Setup">
+      <param name="Local" value="Setup.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="JavaScript1.2 src">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Setup">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Text/javascript">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Search">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Local" value="Frequently_Asked_Questions.htm">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Local" value="Frequently_Asked_Questions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Contents, Index">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Local" value="Frequently_Asked_Questions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Q">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Local" value="Frequently_Asked_Questions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="FlashHelp Context-Sensitively">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="FlashHelp/WebHelp API">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="regarding">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="Introduction.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Contents">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Context-sensitive">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Calling">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="WebHelp">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="Introduction.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Regarding">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="FlashHelp/WebHelp API">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="Introduction.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="FlashHelp API">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Introduction">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Index">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+</ul>
+</html>

@@ -1,0 +1,462 @@
+BODY { 
+      border-top-width:4px; 
+      border-left-width:4px; 
+      font-size:8pt; 
+      border-bottom-width:4px; 
+      font-family:Verdana, Arial; 
+      background-color:#ffffff; 
+      border-right-width:4px;  }
+H1 { 
+    margin-top:8pt; 
+    font-weight:bold; 
+    font-size:11pt; 
+    margin-bottom:8pt; 
+    color:#0000d0; 
+    font-family:Arial;  }
+LI.kadov-H1 { 
+             font-weight:bold; 
+             font-size:11pt; 
+             color:#0000d0; 
+             font-family:Arial;  }
+H2 { 
+    margin-top:8pt; 
+    font-weight:bold; 
+    font-size:10pt; 
+    margin-bottom:8pt; 
+    color:#0000d0; 
+    font-family:Arial; 
+    text-align:left;  }
+LI.kadov-H2 { 
+             font-weight:bold; 
+             font-size:10pt; 
+             color:#0000d0; 
+             font-family:Arial; 
+             text-align:left;  }
+H3 { 
+    margin-top:8pt; 
+    font-weight:bold; 
+    font-size:8pt; 
+    margin-bottom:8pt; 
+    color:#0000d0; 
+    font-family:Verdana, Arial; 
+    letter-spacing:normal;  }
+LI.kadov-H3 { 
+             font-weight:bold; 
+             font-size:8pt; 
+             color:#0000d0; 
+             font-family:Verdana, Arial; 
+             letter-spacing:normal;  }
+H4 { 
+    margin-top:8pt; 
+    font-weight:bold; 
+    font-size:8pt; 
+    margin-bottom:8pt; 
+    text-transform:none; 
+    font-style:normal; 
+    font-family:Verdana, Arial; 
+    font-variant:normal;  }
+LI.kadov-H4 { 
+             font-weight:bold; 
+             font-size:8pt; 
+             text-transform:none; 
+             font-style:normal; 
+             font-family:Verdana, Arial; 
+             font-variant:normal;  }
+A:link { 
+        font-weight:bold; 
+        font-size:8pt; 
+        color:#0000d0; 
+        font-style:normal; 
+        font-family:Verdana, Arial; 
+        text-decoration:underline; 
+        x-text-underline:normal;  }
+A:visited { 
+           font-weight:bold; 
+           font-size:8pt; 
+           color:#0000d0; 
+           font-style:normal; 
+           font-family:Verdana, Arial; 
+           text-decoration:underline; 
+           x-text-underline:normal;  }
+P { 
+   margin-top:8pt; 
+   font-size:8pt; 
+   margin-bottom:8pt; 
+   color:#000000; 
+   font-family:Verdana, Arial;  }
+LI.kadov-P { 
+            font-size:8pt; 
+            color:#000000; 
+            font-family:Verdana, Arial;  }
+P.instep { 
+          font-weight:normal; 
+          font-size:8pt; 
+          font-family:Verdana, Arial; 
+          list-style-type:none;  }
+LI.kadov-P-Cinstep { 
+                    font-weight:normal; 
+                    font-size:8pt; 
+                    font-family:Verdana, Arial; 
+                    list-style-type:none;  }
+P.BULLETS { 
+           margin-top:8pt; 
+           font-weight:normal; 
+           list-style-position:outside; 
+           font-size:8pt; 
+           margin-bottom:8pt; 
+           margin-left:-8pt; 
+           color:#000000; 
+           font-style:normal; 
+           font-family:Verdana, Arial; 
+           list-style-type:square;  }
+LI.kadov-P-CBULLETS { 
+                     font-weight:normal; 
+                     list-style-position:outside; 
+                     font-size:8pt; 
+                     color:#000000; 
+                     font-style:normal; 
+                     font-family:Verdana, Arial; 
+                     list-style-type:square;  }
+A:active { 
+          font-weight:bold;  }
+P.note { 
+        border-right:#ccedff 4pt solid; 
+        border-top:#ccedff 4pt solid; 
+        font-size:8pt; 
+        border-left:#ccedff 4pt solid; 
+        color:#0000d0; 
+        line-height:normal; 
+        margin-right:6pt; 
+        border-bottom:#ccedff 4pt solid; 
+        font-family:Verdana, Arial; 
+        background-color:#ccedff; 
+        text-align:left;  }
+LI.kadov-P-Cnote { 
+                  font-size:8pt; 
+                  color:#0000d0; 
+                  line-height:normal; 
+                  font-family:Verdana, Arial; 
+                  text-align:left;  }
+P.warning { 
+           border-right:#e1e1e1 4pt solid; 
+           border-top:#e1e1e1 4pt solid; 
+           font-weight:normal; 
+           font-size:8pt; 
+           border-left:#e1e1e1 4pt solid; 
+           color:#0000a0; 
+           border-bottom:#e1e1e1 4pt solid; 
+           font-family:Verdana, Arial, "Times New 12"; 
+           background-color:#e1e1e1;  }
+LI.kadov-P-Cwarning { 
+                     font-weight:normal; 
+                     font-size:8pt; 
+                     color:#0000a0; 
+                     font-family:Verdana, Arial, "Times New 12";  }
+P.NUMBERS { 
+           margin-top:8pt; 
+           font-weight:normal; 
+           list-style-position:outside; 
+           font-size:8pt; 
+           margin-bottom:8pt; 
+           margin-left:-5pt; 
+           color:#000000; 
+           font-style:normal; 
+           font-family:Verdana, Arial;  }
+LI.kadov-P-CNUMBERS { 
+                     font-weight:normal; 
+                     list-style-position:outside; 
+                     font-size:8pt; 
+                     color:#000000; 
+                     font-style:normal; 
+                     font-family:Verdana, Arial;  }
+P.BlueSky-Bullets { 
+                   margin-top:-5pt; 
+                   font-size:8pt; 
+                   margin-left:-8pt; 
+                   color:#0093ff; 
+                   font-family:Verdana, Arial; 
+                   list-style-type:square;  }
+LI.kadov-P-CBlueSky-Bullets { 
+                             font-size:8pt; 
+                             color:#0093ff; 
+                             font-family:Verdana, Arial; 
+                             list-style-type:square;  }
+P.IndentedBullets { 
+                   margin-top:8pt; 
+                   margin-bottom:8pt; 
+                   margin-left:5pt; 
+                   list-style-type:square;  }
+LI.kadov-P-CIndentedBullets { 
+                             list-style-type:square;  }
+P.Question { 
+            font-weight:bold; 
+            font-size:8pt; 
+            color:#0000d0; 
+            font-family:Verdana, Arial;  }
+LI.kadov-P-CQuestion { 
+                      font-weight:bold; 
+                      font-size:8pt; 
+                      color:#0000d0; 
+                      font-family:Verdana, Arial;  }
+H5 { 
+    margin-top:8pt; 
+    font-weight:bold; 
+    font-size:8pt; 
+    margin-bottom:8pt; 
+    color:#0000d0; 
+    font-family:Verdana, Arial;  }
+LI.kadov-H5 { 
+             font-weight:bold; 
+             font-size:8pt; 
+             color:#0000d0; 
+             font-family:Verdana, Arial;  }
+P.SAPHHIRE-BULLETS { 
+                    margin-top:0pt; 
+                    font-weight:normal; 
+                    margin-bottom:10pt; 
+                    margin-left:-14pt; 
+                    color:#0000d0; 
+                    font-style:normal; 
+                    list-style-type:square;  }
+LI.kadov-P-CSAPHHIRE-BULLETS { 
+                              font-weight:normal; 
+                              color:#0000d0; 
+                              font-style:normal; 
+                              list-style-type:square;  }
+P.NoteTip-Heading { 
+                   margin-top:0pt; 
+                   font-weight:bold; 
+                   font-size:8pt; 
+                   margin-bottom:4pt; 
+                   color:#0000ce; 
+                   font-family:Verdana, Arial;  }
+LI.kadov-P-CNoteTip-Heading { 
+                             font-weight:bold; 
+                             font-size:8pt; 
+                             color:#0000ce; 
+                             font-family:Verdana, Arial;  }
+P.tip { 
+       border-right:#ffffdf 4pt solid; 
+       border-top:#ffffdf 4pt solid; 
+       margin-top:0pt; 
+       margin-bottom:8pt; 
+       border-left:#ffffdf 4pt solid; 
+       color:#0000d0; 
+       margin-right:0pt; 
+       border-bottom:#ffffdf 4pt solid; 
+       background-color:#ffffdf;  }
+LI.kadov-P-Ctip { 
+                 color:#0000d0;  }
+H6 { 
+    margin-top:8pt; 
+    margin-bottom:8pt;  }
+LI.kadov-H6 {  }
+P.PopupHeading { 
+                font-weight:bold; 
+                color:#0000d0;  }
+LI.kadov-P-CPopupHeading { 
+                          font-weight:bold; 
+                          color:#0000d0;  }
+P.NumBul { 
+          margin-top:8pt; 
+          font-size:8pt; 
+          margin-bottom:8pt; 
+          margin-left:8pt; 
+          font-family:Verdana, Arial; 
+          list-style-type:square;  }
+LI.kadov-P-CNumBul { 
+                    font-size:8pt; 
+                    font-family:Verdana, Arial; 
+                    list-style-type:square;  }
+P.DialBul { 
+           margin-top:-0.3pt; 
+           margin-bottom:-0.1pt; 
+           list-style-type:square;  }
+LI.kadov-P-CDialBul { 
+                     list-style-type:square;  }
+P.RHOffice { 
+            border-right:#e1e1e1 2pt solid; 
+            border-top:#e1e1e1 2pt solid; 
+            margin-top:6pt; 
+            margin-bottom:6pt; 
+            border-left:#e1e1e1 2pt solid; 
+            color:#0093ff; 
+            border-bottom:#e1e1e1 2pt solid; 
+            background-color:#e1e1e1;  }
+LI.kadov-P-CRHOffice { 
+                      color:#0093ff;  }
+P.DropDownText { 
+                margin-top:-3pt; 
+                margin-bottom:4pt; 
+                margin-left:14pt;  }
+LI.kadov-P-CDropDownText {  }
+SPAN.Big { 
+          font-weight:bolder; 
+          font-size:larger; 
+          color:#0093ff; 
+          font-family:Verdana, Arial;  }
+SPAN.Code { 
+           font-weight:normal; 
+           font-size:8pt; 
+           color:#000000; 
+           font-family:monospace;  }
+A.expandspot { 
+              font-weight:normal; 
+              cursor:hand; 
+              color:#0000d0; 
+              font-style:normal; 
+              text-decoration:underline; 
+              x-text-underline:normal;  }
+A.expandspot:visited { 
+                      font-weight:normal; 
+                      cursor:hand; 
+                      color:#0000d0; 
+                      font-style:normal; 
+                      text-decoration:underline; 
+                      x-text-underline:normal;  }
+A.expandspot:hover { 
+                    font-weight:normal; 
+                    cursor:hand; 
+                    color:#009933; 
+                    font-style:normal; 
+                    text-decoration:underline; 
+                    x-text-underline:normal;  }
+SPAN.expandtext { 
+                 font-weight:normal; 
+                 color:#800000; 
+                 font-style:normal; 
+                 background-color:transparent;  }
+A.dropspot { 
+            font-weight:normal; 
+            cursor:hand; 
+            color:#0000d0; 
+            font-style:normal; 
+            text-decoration:underline; 
+            x-text-underline:normal;  }
+A.dropspot:visited { 
+                    font-weight:normal; 
+                    cursor:hand; 
+                    color:#0000d0; 
+                    font-style:normal; 
+                    text-decoration:underline; 
+                    x-text-underline:normal;  }
+A.dropspot:hover { 
+                  font-weight:normal; 
+                  cursor:hand; 
+                  color:#009933; 
+                  font-style:normal; 
+                  text-decoration:underline; 
+                  x-text-underline:normal;  }
+A.glossterm { 
+             cursor:hand; 
+             color:#800000; 
+             font-style:italic;  }
+SPAN.glosstext { 
+                font-weight:normal; 
+                color:#0000ff; 
+                font-style:italic;  }
+TD OL { 
+       margin-top:0px; 
+       margin-bottom:0px;  }
+TD UL { 
+       margin-top:0px; 
+       margin-bottom:0px;  }
+P.Onestep {  }
+LI.kadov-P-COnestep {  }
+P.TableText { 
+             margin-top:2pt; 
+             font-size:8pt; 
+             margin-bottom:2pt; 
+             color:#000000; 
+             font-family:Verdana, Arial;  }
+LI.kadov-p-CTableText { 
+                       font-size:8pt; 
+                       color:#000000; 
+                       font-family:Verdana, Arial;  }
+P.note2 { 
+         border-right:#99cccc 4pt solid; 
+         border-top:#99cccc 4pt solid; 
+         font-size:8pt; 
+         border-left:#99cccc 4pt solid; 
+         color:#003333; 
+         line-height:normal; 
+         margin-right:6pt; 
+         border-bottom:#99cccc 4pt solid; 
+         font-family:Verdana, Arial; 
+         background-color:#99cccc; 
+         text-align:left;  }
+LI.kadov-P-Cnote2 { 
+                   font-size:8pt; 
+                   color:#003333; 
+                   line-height:normal; 
+                   font-family:Verdana, Arial; 
+                   text-align:left;  }
+P.Breadcrumbs { 
+               border-top:#0000cc 4px double; 
+               font-size:8pt; 
+               padding-bottom:4px; 
+               color:#000000; 
+               padding-top:4px; 
+               border-bottom:#0000cc 4px double; 
+               font-family:Verdana, Arial;  }
+LI.kadov-p-CBreadcrumbs { 
+                         font-size:8pt; 
+                         color:#000000; 
+                         font-family:Verdana, Arial;  }
+OL { 
+    margin-top:0pt; 
+    margin-bottom:0pt;  }
+UL { 
+    margin-top:0pt; 
+    margin-bottom:0pt;  }
+A.PopupHotspot { 
+                font-weight:normal; 
+                color:#0000d0; 
+                font-style:normal; 
+                text-decoration:underline; 
+                x-text-underline:Normal;  }
+A.POPUPHOTSPOT:visited { 
+                        font-weight:normal; 
+                        color:#0000d0; 
+                        font-style:normal; 
+                        text-decoration:underline; 
+                        x-text-underline:Normal;  }
+A.POPUPHOTSPOT:hover { 
+                      font-weight:normal; 
+                      color:#009933; 
+                      font-style:normal; 
+                      text-decoration:underline; 
+                      x-text-underline:Normal;  }
+A.popupspot { 
+             font-weight:normal; 
+             color:#0000d0; 
+             font-style:normal; 
+             text-decoration:underline; 
+             x-text-underline:Normal;  }
+A.POPUPSPOT:visited { 
+                     font-weight:normal; 
+                     color:#0000d0; 
+                     font-style:normal; 
+                     text-decoration:underline; 
+                     x-text-underline:Normal;  }
+A.POPUPSPOT:hover { 
+                   font-weight:normal; 
+                   color:#009933; 
+                   font-style:normal; 
+                   text-decoration:underline; 
+                   x-text-underline:Normal;  }
+A:hover { 
+         font-weight:bold; 
+         color:#009933; 
+         font-style:normal; 
+         text-decoration:underline; 
+         x-text-underline:Normal;  }
+P.Definition { 
+              border-right:#ccffcc 4px solid; 
+              border-top:#ccffcc 4px solid; 
+              border-left:#ccffcc 4px solid; 
+              color:#0000d0; 
+              border-bottom:#ccffcc 4px solid; 
+              background-color:#ccffcc;  }
+LI.kadov-P-CDefinition { 
+                        color:#0000d0;  }

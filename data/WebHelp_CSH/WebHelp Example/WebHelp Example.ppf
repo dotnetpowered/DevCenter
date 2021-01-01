@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE polprojfile>
+<ppfml version="2.00" project="WebHelp Example">
+ <windowlist defaultwindow="First">
+  <window name="SecondWindow" x="5%" y="0%" width="62%" height="62%" viewtype="singlepane" workspacestyle="DEFAULT" caption="FlashHelp Example" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="no">
+   <elements><element name="BrowseSequence" Present="no" /><element name="SearchInput" Present="no" />
+   </elements>
+   <agents defaultagent="toc">
+    <agent>toc
+    </agent>
+    <agent>ndx
+    </agent>
+    <agent>nls
+    </agent>
+    <agent>gls
+    </agent>
+   </agents>
+  </window>
+  <window name="First" x="5%" y="5%" width="90%" height="90%" viewtype="doublepane" workspacestyle="DEFAULT" caption="FlashHelp Example" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="yes">
+   <elements><element name="BrowseSequence" Present="no" /><element name="SearchInput" Present="no" />
+   </elements>
+   <agents defaultagent="toc">
+    <agent>toc
+    </agent>
+    <agent>ndx
+    </agent>
+    <agent>nls
+    </agent>
+    <agent>gls
+    </agent>
+   </agents>
+  </window>
+ </windowlist>
+ <contextmap>
+ </contextmap>
+ <topiclist defaulttopic="Introduction.htm">
+  <topic>Introduction.htm
+  </topic>
+  <topic>Setup.htm
+  </topic>
+  <topic>Calling_functions_from_Web_pages.htm
+  </topic>
+  <topic>Frequently_Asked_Questions.htm
+  </topic>
+  <topic>How_to_call_the_default_topic_with_the_Navigation_Pane.htm
+  </topic>
+  <topic>How_to_call_a_specific_topic_with_the_Navigation_Pane.htm
+  </topic>
+  <topic>How_to_call_a_specific_topic_without_the_Navigation_Pane.htm
+  </topic>
+ </topiclist>
+ <projectincludes>
+ </projectincludes>
+ <filenamemap>
+ </filenamemap>
+</ppfml>

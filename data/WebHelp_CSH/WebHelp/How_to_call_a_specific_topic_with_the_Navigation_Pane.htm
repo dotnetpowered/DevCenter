@@ -1,0 +1,93 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>How to call a specific topic with the Navigation Pane</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<link rel="stylesheet" href="styles_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='styles.css'>");}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("How to call a specific topic with the Navigation Pane");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("WebHelp_Example.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<h1>How to call a specific topic with the Navigation Pane</h1>
+
+<p>To open a specific topic with the Navigation pane displayed, you must 
+ specify a window name following the path to your WebHelp start page. &nbsp;The 
+ following would be the syntax if we were to write it out completely without 
+ using variables:</p>
+
+<p>&lt;A HREF='javascript:RH_ShowHelp(0, &quot;WebHelp/WebHelp_Example.htm&gt;First&quot;, 
+ HH_HELP_CONTEXT, 7)'&gt;Click Here to Test&lt;/a&gt;</p>
+
+<p>In the Help's source files you will notice that their is a window defined 
+ as First. &nbsp;This 
+ is the window that we are telling the help topic to open in. &nbsp;In 
+ this example we have setup the windows properties to use a 'Two Pane' 
+ view, this allows us to open the mapped topic while showing the navigation 
+ pane.</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

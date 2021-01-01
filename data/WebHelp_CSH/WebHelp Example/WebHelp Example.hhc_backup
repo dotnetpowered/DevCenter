@@ -1,0 +1,27 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="toc">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800002">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="Introduction.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Setup">
+    <param name="Local" value="Setup.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Calling functions from Web pages">
+    <param name="Local" value="Calling_functions_from_Web_pages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Frequently Asked Questions">
+    <param name="Local" value="Frequently_Asked_Questions.htm">
+  </object>
+</ul>
+</html>
